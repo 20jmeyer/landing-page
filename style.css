@@ -38,6 +38,9 @@ button{
     width: 80px;
     padding: 5px;
 }
+.item p{
+    text-align: center;
+}
 .largeimage{
     height: auto;
     background-color: gray;
@@ -68,6 +71,21 @@ button{
 .info,.quote,.signup{
     margin: 0px 60px;
 }
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+
+.collection{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
 .header,.footer{
     background-color: #1F2937;
 }
