@@ -64,8 +64,15 @@ button{
     align-items: left;
     justify-content: space-between;
 }
+
+.info,.quote,.signup{
+    margin: 0px 60px;
+}
 .header,.footer{
     background-color: #1F2937;
+}
+.footer{
+    text-align: center;
 }
 a:link {
     text-decoration: none;
